@@ -1,16 +1,22 @@
-# fbk1ng_mobile
+# TUGAS 7 #
 
-A new Flutter project.
+PERTANYAAN
+1. Apa perbedaan utama antara stateless dan stateful widget dalam konteks pengembangan aplikasi Flutter?
+2. Sebutkan seluruh widget yang kamu gunakan untuk menyelesaikan tugas ini dan jelaskan fungsinya masing-masing.
+3. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step (bukan hanya sekadar mengikuti tutorial)
 
-## Getting Started
+JAWABAN
+1. Perbedaan yang paling utama antara stateless dan stateful widget terdapat pada adaptibilitas dan responsivitas terhadap kegiatan yang dilakukan oleh seorang 
+   user di dalam sebuah aplikasi. Stateful widget dapat merubah bentuk widgetnya sesuai kondisi yang di tentukan sedangkan stateless widget bentuknya atau 
+   tampilannya tidak akan berubah.
 
-This project is a starting point for a Flutter application.
+2. a) Padding --> untuk mengatur jarak border dan konten yang ingin di atur paddingnya
+   b) Text --> untuk menampilkan sebuah text yang bisa di atur font, warna, dan lainnya dengan TextStyle
+   c) AppBar --> untuk menampilkan sebuah bar di bagian atas aplikasi yang dapat diisi dengan text, icon, dan semacanya
+   d) Icon --> untuk bisa mengakses icon-icon yang disediakan flutter dan bisa digunakan
+   e) Container --> berfungsi sebagai tempat dimana konten-konten yang kita inginkan bisa ditaruh
+   f) GridView --> jika ada sebuah konten repetitif atau yang sama dan ingin ditampilkan secara vertikal atau horizontal bisa memakai gridview ini
+   g) SingleChildScrollView --> buat memastikan kalau ada sebuah konten tetap bisa terlihat sepenuhnya jika di scroll saat containernya terlalu kecil
+   h) Column --> untuk menampilkan widget secara vertikal
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. 
