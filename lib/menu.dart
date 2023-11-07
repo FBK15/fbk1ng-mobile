@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'dart:math';
 
 class MyHomePage extends StatelessWidget {
   MyHomePage({Key? key}) : super(key: key);
@@ -67,7 +68,7 @@ class ShopCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Material(
-      color: Colors.lightBlueAccent,
+      color: Colors.primaries[Random().nextInt(Colors.primaries.length)],
       child: InkWell(
         // Area responsive terhadap sentuhan
         onTap: () {
